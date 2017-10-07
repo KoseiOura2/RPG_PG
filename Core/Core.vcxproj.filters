@@ -19,10 +19,19 @@
     <Filter Include="Code\Framework">
       <UniqueIdentifier>{5c1fca87-7392-4e0a-8543-24b800a0eff0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Code\Debug">
+      <UniqueIdentifier>{8aa6e848-95ee-4524-afd4-ac61b4f7444d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Debug\DebugPrint">
+      <UniqueIdentifier>{8bd63f32-0cc9-47a7-b95a-10c711a3ccc1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Code\Framework\Framework.cpp">
       <Filter>Code\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Debug\DebugPrint\DebugPrint.cpp">
+      <Filter>Code\Debug\DebugPrint</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -33,6 +42,12 @@
       <Filter>Code</Filter>
     </ClInclude>
     <ClInclude Include="Code\Core.h">
+      <Filter>Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Debug\DebugPrint\DebugPrint.h">
+      <Filter>Code\Debug\DebugPrint</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Define.h">
       <Filter>Code</Filter>
     </ClInclude>
   </ItemGroup>

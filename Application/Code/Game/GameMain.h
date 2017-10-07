@@ -11,6 +11,13 @@
 //-------------------------------------------- function
 
 /*
+	@detail	ゲームの初期化関数
+	@author	K.Oura
+	@date	2017/10/07
+*/
+void GameMain_InitFunc( void );
+
+/*
 	@detail	ゲームの更新関数
 	@author	K.Oura
 	@date	2017/09/18

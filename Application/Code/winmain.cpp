@@ -37,6 +37,8 @@ int Initialize( )
 	// FrameWork‚Ì‰Šú‰»
 	Framework::Initialize( );
 
+	GameMain_InitFunc( );
+
 	// ŠÖ”‚Ì“o˜^
 	Framework::GetInstance( )->SetProcFunc( &GameMain_ProcFunc );
 	Framework::GetInstance( )->SetDrawFunc( &GameMain_DrawFunc );

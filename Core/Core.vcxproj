@@ -157,11 +157,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Code\Debug\DebugPrint\DebugPrint.cpp" />
     <ClCompile Include="Code\Framework\Framework.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Code\Core.h" />
     <ClInclude Include="Code\CoreCommon.h" />
+    <ClInclude Include="Code\Debug\DebugPrint\DebugPrint.h" />
+    <ClInclude Include="Code\Define.h" />
     <ClInclude Include="Code\Framework\Framework.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

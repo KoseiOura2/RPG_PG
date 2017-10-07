@@ -69,11 +69,15 @@ void Framework::Initialize( ) {
 		return;			// エラーが起きたら直ちに終了
 	}
 
+
 	//SetDrawArea( 0, 0, 1920 / 2, 1080 / 2 );
 	SetDrawScreen( DX_SCREEN_BACK );
 	SetUseBackCulling( TRUE );
 
 	SetChangeScreenModeGraphicsSystemResetFlag( FALSE );
+	// 背景色の設定
+	SetBackgroundColor( 0, 255, 0 );
+
 }
 
 /*
@@ -115,9 +119,13 @@ void Framework::Run( ) {
 		if ( CheckHitKey( KEY_INPUT_ESCAPE ) ) {
 			break;
 		}
-
+		
 		// 更新
 		_ProcFunc( );
+
+		// スクリーンの更新
+		ScreenFlip( );
+		ClearDrawScreen( );
 
 		// 描画
 		_DrawFunc( );

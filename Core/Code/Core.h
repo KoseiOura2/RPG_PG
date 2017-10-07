@@ -9,7 +9,12 @@
 #define __CORE_H__
 
 //-------------------------------------------- include
+#include <stdio.h>
+#include "Define.h"
+
 #include "Framework/Framework.h"
+#include "Debug/DebugPrint/DebugPrint.h"
+
 
 #endif // __CORE_H__
 

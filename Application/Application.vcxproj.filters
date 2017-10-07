@@ -22,6 +22,15 @@
     <Filter Include="Code\Game\Common">
       <UniqueIdentifier>{63ad6cf0-bb88-4ca7-ae3f-3e1d1b01f6e2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Code\Game\Scene">
+      <UniqueIdentifier>{f6aebc93-48dc-4e03-bd0a-934f07f7acc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Game\Scene\Boot">
+      <UniqueIdentifier>{a695f92d-5a1d-4097-a4d7-58aa3aa97647}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Game\Scene\Test">
+      <UniqueIdentifier>{49a7d4a0-f7ff-447f-810d-ef3dc43d3560}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Code\winmain.cpp">
@@ -33,6 +42,15 @@
     <ClCompile Include="Code\Game\Common\GameCommon.cpp">
       <Filter>Code\Game\Common</Filter>
     </ClCompile>
+    <ClCompile Include="Code\Game\Scene\Scene.cpp">
+      <Filter>Code\Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Game\Scene\Boot\Boot.cpp">
+      <Filter>Code\Game\Scene\Boot</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Game\Scene\Test\TestMenu.cpp">
+      <Filter>Code\Game\Scene\Test</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Code\Game\Common\GameCommon.h">
@@ -40,6 +58,15 @@
     </ClInclude>
     <ClInclude Include="Code\Game\GameMain.h">
       <Filter>Code\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Game\Scene\Scene.h">
+      <Filter>Code\Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Game\Scene\Boot\Boot.h">
+      <Filter>Code\Game\Scene\Boot</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Game\Scene\Test\TestMenu.h">
+      <Filter>Code\Game\Scene\Test</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

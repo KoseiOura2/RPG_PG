@@ -77,6 +77,7 @@
       <SDLCheck>true</SDLCheck>
       <AdditionalIncludeDirectories>$(DXLIB_ROOT);$(RPG_CORE);$(RPG_PG);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PreprocessorDefinitions>DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <AdditionalLibraryDirectories>$(DXLIB_ROOT);$(SolutionDir)$(Configuration)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
@@ -123,11 +124,17 @@
   <ItemGroup>
     <ClCompile Include="Code\Game\Common\GameCommon.cpp" />
     <ClCompile Include="Code\Game\GameMain.cpp" />
+    <ClCompile Include="Code\Game\Scene\Boot\Boot.cpp" />
+    <ClCompile Include="Code\Game\Scene\Scene.cpp" />
+    <ClCompile Include="Code\Game\Scene\Test\TestMenu.cpp" />
     <ClCompile Include="Code\winmain.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Code\Game\Common\GameCommon.h" />
     <ClInclude Include="Code\Game\GameMain.h" />
+    <ClInclude Include="Code\Game\Scene\Boot\Boot.h" />
+    <ClInclude Include="Code\Game\Scene\Scene.h" />
+    <ClInclude Include="Code\Game\Scene\Test\TestMenu.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
